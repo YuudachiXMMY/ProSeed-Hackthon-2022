@@ -1,0 +1,16 @@
+# Test to add two nodes to graph and one edge points from node2 to node1
+
+# Create a graph
+CreateGraph graph2
+
+# Add two nodes to graph
+AddNode graph2 node1
+AddNode graph2 node2
+
+# Add an edge to graph
+AddEdge graph2 node2 node1 edge1
+
+# Print all nodes in graph
+ListNodes graph2
+ListChildren graph2 node1
+ListChildren graph2 node2

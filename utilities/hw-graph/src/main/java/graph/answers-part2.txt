@@ -1,0 +1,56 @@
+## CSE 331 hw-graph Part 2 Questions
+
+NOTE: This file is used as part of hw-graph-part2, and is not due as part of the hw-graph-part1
+submission. You may leave it blank for hw-graph-part1.
+
+## Section 1
+###########################################################################
+
+A few examples of possible Graph representations:
+
+    A: A collection of edges.
+    B: An adjacency list, in which each node is associated with a list of its outgoing edges.
+    C: An adjacency matrix, which explicitly represents, for every pair ⟨A,B⟩ of edges, whether there is a link from A to B, and how many.
+
+1. In two or three sentences, explain an advantage and a disadvantage of each of the
+representations listed above (for example, in terms of runtime complexity, space
+complexity, or ease of implementation).
+
+Representation of a collection of edges is fast and easy to add new edges but can be hard to check the edges of a specific
+node that is out going.
+An adjacency list as a representation is also good at adding new nodes very fast and easily but can be harsh to look for
+two nodes which are connected.
+An adjacency matrix is capable to find edges and connected nodes but takes more memory/spaces to be implemented.
+
+
+2. In two to three sentences, describe the representation you chose and explain why you
+chose it. If you chose to use a different representation than one of the three we described
+above, be sure to list its advantages and disadvantages, too.
+
+I choose to implement an adjacency list. It's easier to be implemented. By utilizing a map can we easily new nodes and
+link nodes with edges.
+
+
+## Section 4
+###########################################################################
+
+    (Please keep your answers brief and to-the-point.)
+
+1. Describe any new tests you added and why you added them, or why you feel that your original
+tests alone are sufficient.
+
+I add a method, getEdges(), which returns the edges that come out from a node. Therefore, I add
+the related tests in all my test scripts for this method. This could check that the edges are
+correctly represented as well.
+I also changes some typo between the .test and .expected files for part1. These typo and little
+differences in titles written in part1 would causes the test to be failed.
+
+
+2. Did you make any changes to your specifications as you were implementing your Graph? (yes/no)
+If yes, describe your changes and why you made them.
+
+Yes.
+I add a method, getEdges(), which returns the edges that come out from a node. Adding this method
+is helpful to create a graph and also would satisfy the specification made previously, which is
+designed to represent nodes and their edges which link the nodes in the graph. Thus, this method
+would be extremely vital to represent the Graph.

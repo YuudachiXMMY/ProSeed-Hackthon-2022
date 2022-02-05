@@ -1,0 +1,107 @@
+## CSE 331 hw-graph Part 1 Questions
+
+## Section 1
+###########################################################################
+
+1. Write an AF and RI for IntQueue1 and IntQueue2.
+
+    ### IntQueue1
+
+    Abstraction Function:
+        AF(r) = A queue of integers, Es, where:
+            1) Es are entries, E_0, E_1, ... , E_i where i is E_0 is the
+                first integer in this queue and E_i the last integer in
+                this queue.
+            2） Es are entries which are [], thus the queue is empty.
+
+
+    Representation Invariant:
+        entries is not null and contains no null values.
+
+
+
+    ### IntQueue2
+
+    Abstraction Function:
+        AF(r) = A queue of integers, Es, where:
+            The most recently added elements appear are the items at the end of entries,
+            and the least ones are a the front of entries. size shows the total number
+            of elements and front points to the first element in queue.
+
+
+    Representation Invariant:
+        entries is not null. size >= 0 && size < entries.length.
+        front >= 0, front <= length.length
+
+
+
+2. Group the snapshots of IntQueue2's internal state into groups that have the same abstract state.
+    a) {1, 2}
+    b) {2, 3, 4}
+    c) {1, 2, 3}
+    d) {1, 2}
+    e) {1, 2, 3, 4}
+    f) {1, 2, 3}
+    g) {1, 2}
+    h) {2, 3, 4}
+
+
+
+3. For each signature below, state and justify in 1-2 sentences (per part) whether the method or constructor
+could possibly expose the representation, given the information available. Explain any assumptions you made.
+
+    a. `public int solveEquations(int x, int y, int z)`
+        This method doesn't expose any representation. It only returns an immutable primitive data type.
+
+
+    b. `public String[] decode(boolean slowly)`
+        A representation exposure may occur. Because it returns an array of Strings which is mutable.
+
+
+    c. `private Date myBirthday()`
+        A representation exposure may occur. Fields can then be modified by the caller if Date class is not
+        immutable and doesn't return a copy of current objects.
+
+
+    d. `public String toString()`
+         This method doesn't expose any representation. It only returns an immutable String.
+
+
+    e. `public Iterator<Integer> elements()`
+        A representation exposure may occur. If the returned Iterator points to an original collection, the caller
+        can edit the element from that collection.
+
+
+    f. `public Deck(List<Card> cards)`
+        A representation exposure may occur. Caller may change cards while calling the Deck class's constructor,
+        if Deck class doesn't save fields (cards) as a copy.
+
+
+
+## Section 2
+###########################################################################
+
+Briefly explain why you included the operations you did and why you feel they are a sufficient
+interface to a graph. If your design includes multiple classes or interfaces, explain why you
+included each one; if not, explain whether you considered additional classes and why you decided
+not to include them.
+
+By implementing a method to add nodes and edges can clients built a graph after it has been constructed.
+Methods like getNumberOfNodes(), getNumberOfEdges(), getNodes() and toString() are observer methods which
+is capable to return current status of graph for clients. It also implements a method isEmpty() to check
+whether the graph is currently empty. An inner class, edge, has been implemented as a helper class which
+can be constructed by a destination and a label. Edge contains observer methods to get destinations and
+labels. It also implements an equals() method to check whether two edges are the same.
+
+
+
+## Section 3
+###########################################################################
+
+What was your testing strategy for this assignment? How do your script tests and JUnit tests
+differ from each other (if they do), and why?
+
+I test on node with null, one node and two nodes in a graph. In addition, I test cases that a node has
+an edge pointing to itself, pointing to another node, and edges pointing between two nodes. My script tests
+and JUnit tests are testing same cases on null nodes, one node and two nodes. However, my Junit tests do
+throw exceptions if clients perform behaviors that are out of specifications, which differ from the spec test.

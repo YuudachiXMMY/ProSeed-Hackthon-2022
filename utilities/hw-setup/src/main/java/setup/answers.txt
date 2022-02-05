@@ -1,0 +1,35 @@
+## CSE 331 hw-setup Questions
+## Part 6
+
+1. Why did Fibonacci fail the testThrowsIllegalArgumentException< test? What (if anything) did
+you have to do to fix it? If you did not have to change anything to fix this issue, explain why.
+
+This test is used to find negative numbers passed in the Fibonacci function. In the original function,
+an IllegalArgumentException error will be thrown if a negative or a Zero is passed into the function. So if I
+pass n=0 or n=1 into the function, then it will recursively pass a n=0 into the function and then causes the error.
+Therefore, to resolve this situation, I change the if-statement to throw the IllegalArgumentException error only
+when the n<0.
+
+
+2. Why did Fibonacci fail the testBaseCase test? What (if anything) did you have to do to fix
+it? If you did not have to change anything to fix this issue, explain why.
+
+There are only two base values, 0 and 1. For both of n=0 and n=1, the return value should be 1.
+While n=1, everything works fine. The problem for n=0 is mentioned and resolve above(answer to Q1), which is
+that n=0 will throw an error in the first if-statement. To resolve it, just change the first if-statement to only
+throw error when n<0. And n=0 will return 1 in the second if-statement.
+
+
+3.Why did Fibonacci fail the testInductiveCase test? What (if anything) did you have to do to
+fix it? If you did not have to change anything to fix this issue, explain why.
+
+There are two reasons. Firstly, because when n=2, the return value will be 1, due to the second if statement. To
+resolve it, I change the second if-statement to only return 1 if n=0 or n=1. In addition, the return value in the
+else-statement is wrong. Fibonacci should be calculated using an addition of the previous two values, but here it
+uses a subtraction.
+
+
+* Changes to Ball class:
+I add an additional class myComparator which implements the Comparator class, having a compare() method and is able
+to be used for sort() method. This is essential because for getBallsFromSmallest() method in Box class, I utilize
+the sort() method which requires to pass in a Comparator, and this comparator should be implemented in the Ball class.

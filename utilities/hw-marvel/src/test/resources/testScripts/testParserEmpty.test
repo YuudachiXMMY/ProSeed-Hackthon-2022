@@ -1,0 +1,5 @@
+# Test Marvel parser can load an empty graph
+
+LoadGraph emptyGraph empty.tsv
+
+ListNodes emptyGraph

@@ -1,0 +1,15 @@
+# Test Dijkstra's Algorithm to find a shortest path result
+
+CreateGraph graph
+
+AddNode graph A
+AddNode graph B
+AddNode graph C
+AddNode graph D
+
+AddEdge graph A D 114514
+AddEdge graph A B 114
+AddEdge graph B C 514
+AddEdge graph C D 114.514
+
+FindPath graph A D

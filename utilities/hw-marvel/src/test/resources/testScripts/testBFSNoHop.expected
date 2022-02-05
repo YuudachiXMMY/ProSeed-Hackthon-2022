@@ -1,0 +1,7 @@
+# Test find a path from a node to itself
+
+created graph graph1
+
+added node node1 to graph1
+
+path from node1 to node1:

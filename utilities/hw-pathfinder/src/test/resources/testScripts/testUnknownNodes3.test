@@ -1,0 +1,7 @@
+# Test output with unknown input nodes
+
+CreateGraph graph
+
+AddNode graph A
+
+FindPath graph B C

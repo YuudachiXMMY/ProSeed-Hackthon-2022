@@ -1,0 +1,12 @@
+Briefly list any changes you made to your graph class during hw-pathfinder, and why you made those changes.
+
+For previous works:
+1.  Change Generic Label in Graph from L to E, N to T
+    and in Graph.Edge from L to E, D to T for the majority of
+    other Java programmer to read and understand. For I used
+    to know the idea of generics but I don't have the common
+    idea to us Label like E and T instead of N I used for Node,
+    D for Destination, and E for Edge.
+2.  I think there's no need to change other previous assignments,
+    for I've already consider generic while working on those
+    previous weeks.

@@ -1,0 +1,11 @@
+# Test BFS that dest node is not in graph
+
+created graph graph1
+
+added node node1 to graph1
+added node node2 to graph1
+
+added edge edge1 from node1 to node2 in graph1
+added edge edge2 from node2 to node1 in graph1
+
+unknown character node3

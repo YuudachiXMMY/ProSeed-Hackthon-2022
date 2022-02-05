@@ -1,0 +1,11 @@
+# Test BFS that start and dest node are not in graph
+
+CreateGraph graph1
+
+AddNode graph1 node1
+AddNode graph1 node2
+
+AddEdge graph1 node1 node2 edge1
+AddEdge graph1 node2 node1 edge2
+
+FindPath graph1 node3 node4

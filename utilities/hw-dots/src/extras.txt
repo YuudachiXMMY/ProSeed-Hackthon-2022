@@ -1,0 +1,11 @@
+CSE 331 Homework.  Answers to written questions.
+Edit this file to supply your answers.
+
+Name:  Hairong Wu (Jason)
+
+Describe any additional functionality you added to your application, or any
+significant changes you made to the starter code beyond the basic requirements
+of the assignment, below:
+
+I'm not sure whether adding the functions to draw edges in the Grid.tsx counts
+to the changes.

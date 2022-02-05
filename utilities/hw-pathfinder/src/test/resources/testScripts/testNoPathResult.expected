@@ -1,0 +1,9 @@
+# Test Dijkstra's Algorithm with no path in a graph
+
+created graph graph
+
+added node A to graph
+added node B to graph
+
+path from A to B:
+no path found

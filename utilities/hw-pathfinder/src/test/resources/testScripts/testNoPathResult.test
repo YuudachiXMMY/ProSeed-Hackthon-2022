@@ -1,0 +1,8 @@
+# Test Dijkstra's Algorithm with no path in a graph
+
+CreateGraph graph
+
+AddNode graph A
+AddNode graph B
+
+FindPath graph A B

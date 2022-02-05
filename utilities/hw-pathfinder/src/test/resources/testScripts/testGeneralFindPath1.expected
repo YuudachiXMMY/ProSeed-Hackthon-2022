@@ -1,0 +1,19 @@
+# Test Dijkstra's Algorithm to find a shortest path result
+
+created graph graph
+
+added node A  to graph
+added node B to graph
+added node C to graph
+added node D to graph
+
+added edge 114514.000 from A  to D in graph
+added edge 114.000 from A  to B in graph
+added edge 514.000 from B to C in graph
+added edge 114.514 from C to D in graph
+
+path from A  to D:
+A to B with weight 114.000
+B to C with weight 514.000
+C to D with weight 114.514
+total cost: 742.514

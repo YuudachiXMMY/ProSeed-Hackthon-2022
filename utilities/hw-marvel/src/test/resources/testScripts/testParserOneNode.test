@@ -1,0 +1,6 @@
+# Test Marvel parser can load graph with only one node
+
+LoadGraph graph1 oneHero.tsv
+
+ListNodes graph1
+ListChildren graph1 SUPER-CSE-Student

@@ -1,0 +1,14 @@
+# Test to adding a node with only one edge, which points to the node itself
+
+# Create a graph
+created graph graph1
+
+# Add a node to graph
+added node node1 to graph1
+
+# Add an edge to graph
+added edge edge1 from node1 to node1 in graph1
+
+# Print all nodes in graph
+graph1 contains: node1
+the children of node1 in graph1 are: node1(edge1)

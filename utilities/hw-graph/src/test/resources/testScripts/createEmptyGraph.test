@@ -1,0 +1,7 @@
+# Test to create an empty graph
+
+# Create a graph
+CreateGraph Graph0
+
+# Print all nodes in graph
+ListNodes Graph0

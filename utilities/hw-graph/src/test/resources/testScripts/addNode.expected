@@ -1,0 +1,11 @@
+# Test to create a graph and and add a node to it.
+
+# Create a graph
+created graph graph1
+
+# Add a node
+added node node1 to graph1
+
+# Print all nodes in graph
+graph1 contains: node1
+the children of node1 in graph1 are:
