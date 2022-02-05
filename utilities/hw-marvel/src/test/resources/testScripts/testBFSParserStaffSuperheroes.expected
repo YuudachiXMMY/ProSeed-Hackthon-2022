@@ -1,6 +1,0 @@
-# Test Marvel BFS and parser for an alphabetically least path
-
-loaded graph staffHeroes
-
-path from Notkin-of-the-Superhuman-Beard to Grossman-the-Youngest-of-them-all:
-Notkin-of-the-Superhuman-Beard to Grossman-the-Youngest-of-them-all via CSE331

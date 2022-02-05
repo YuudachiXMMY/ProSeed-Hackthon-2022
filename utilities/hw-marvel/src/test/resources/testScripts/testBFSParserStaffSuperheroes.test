@@ -1,5 +1,0 @@
-# Test Marvel BFS and parser for an alphabetically least path
-
-LoadGraph staffHeroes staffSuperheroes.tsv
-
-FindPath staffHeroes Notkin-of-the-Superhuman-Beard Grossman-the-Youngest-of-them-all

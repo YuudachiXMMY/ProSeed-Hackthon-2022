@@ -1,6 +1,0 @@
-# Test Marvel parser can load graph with only one node
-
-loaded graph graph1
-
-graph1 contains: SUPER-CSE-Student
-the children of SUPER-CSE-Student in graph1 are:

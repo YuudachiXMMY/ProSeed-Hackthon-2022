@@ -1,7 +1,0 @@
-# Test to create an empty graph
-
-# Create a graph
-created graph Graph0
-
-# Print all nodes in graph
-Graph0 contains:

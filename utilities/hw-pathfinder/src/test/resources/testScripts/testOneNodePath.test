@@ -1,7 +1,0 @@
-# Test Dijkstra's Algorithm in a one node path
-
-CreateGraph path
-
-AddNode path A
-
-FindPath path A A

@@ -1,5 +1,0 @@
-Briefly list any changes you made to your graph class during hw-marvel, and why you made those changes.
-
-1. Add comments to the fields in the inner class.
-2. Modify the getNodes() function by changing the returned value to avoid rep exposure.
-3. Edit Rep Invariant about fields that can never be null.

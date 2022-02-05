@@ -1,9 +1,0 @@
-# Test Marvel parser to load StaffSuperHeroes.tsv correctly
-
-LoadGraph staffHeroes staffSuperheroes.tsv
-
-ListNodes staffHeroes
-ListChildren staffHeroes Ernst-the-Bicycling-Wizard
-ListChildren staffHeroes Grossman-the-Youngest-of-them-all
-ListChildren staffHeroes Notkin-of-the-Superhuman-Beard
-ListChildren staffHeroes Perkins-the-Magical-Singing-Instructor
