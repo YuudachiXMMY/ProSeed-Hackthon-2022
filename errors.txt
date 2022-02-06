@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/screens.rpy", line 17: u'actoin' is not a keyword argument or valid child for the imagebutton statement.
-    actoin Hide('building_detail')
-          ^
+File "game/screens.rpy", line 172: u'idle' is not a keyword argument or valid child for the textbutton statement.
+    idle '#000000'
+        ^
 
 Ren'Py Version: Ren'Py 7.4.11.2266
-Sun Feb  6 03:08:07 2022
+Sun Feb  6 07:35:33 2022

@@ -18,7 +18,7 @@ screen building_detail(b):
     add 'gui/bdetail/detail_background.jpg':
         yalign 1.0 yanchor 1.0
 
-    text str(b):
+    text str(var.toFullName[b]):
         xalign 0.5 yalign 0.305
         font 'Rubik-Medium.ttf'
         size 88 color '#ffffff'
@@ -43,32 +43,91 @@ screen dashboard():
 
     add 'gui/main_menu.png'
 
-    grid focused_buildings_size[0] focused_buildings_size[1]:
-        xspacing 50
-        yspacing 200
-        align(.5, .12)
+    grid len(focused_buildings)/2 len(focused_buildings)/2:
+
+        xoffset 50
+        xspacing -50
+        yspacing -1350
+
         yanchor 0
 
-        for i in range(0, 4):
-            button:
-                maximum(408*1.4, 510*1.4)
-                idle_background 'dashbaord_background_idle'
-                hover_background 'dashbaord_background_hover'
-                add "gui/buildings/"+str(focused_buildings[i])+'.jpg':
-                    xoffset 7 yoffset 5
-                    xalign .5
-                    zoom 3.78
-                # text str(toFullName[focused_buildings[i]])
-                action Show('building_detail', b=focused_buildings[i])
+        style_prefix 'dashboard_cards'
 
+        for i in range(0, len(focused_buildings)):
+            if i is '':
+                fixed:
+                    button:
+                        idle_background None
+                        action NoneAction()
+            else:
+                fixed:
+                    button:
+                        idle_background 'dashbaord_background_idle'
+                        hover_background 'dashbaord_background_hover'
+                        action Show('building_detail', b=focused_buildings[i])
+
+                        has vbox
+                        add "gui/buildings/"+str(focused_buildings[i])+'.jpg':
+                            xoffset 7 yoffset 5
+                            xalign .5
+                            zoom 3.78
+                        text str(var.toFullName[focused_buildings[i]]):
+                            xalign .1 yalign .88
+                            size 64
     fixed:
         style_prefix 'dashboard_btn'
         yalign .7
         button:
-            action NullAction()
+            action Show('dashboard_input')
         text 'Add more buildings'
 
+    text _(str(len(focused_buildings))):
+        align(.5,.5) size 88
+
     use bottom_bar('dashboard')
+
+screen dashboard_input():
+
+    modal True
+    # Return
+    imagebutton:
+        idle 'gui/bdetail/return.jpg'
+        action Hide('dashboard_input')
+
+    add 'building_search_bar':
+        align(.5, .3)
+
+    add Input(hover_color="#3399ff",size=88, color="#000", default='', changed=var.new_building, length=10):
+        xoffset 100
+        xalign 0.0 yalign .32
+
+
+    # input:
+    #     xoffset 100
+    #     xalign 0.0 yalign .32
+    #     size 88 font 'Rubik-Medium.ttf'
+    #     value action FieldInputValue('focused_buildings', returnable=True)
+
+
+    # button:
+    #     align(.5, .65)
+    #     idle_background 'building_search_bar'
+    #     hover_background 'building_search_bar'
+    #     input id "input"
+    #     action NullAction()
+
+style dashboard_cards_grid:
+    xalign .5
+    yalign .12
+    xfill True
+    yfill True
+
+style dashboard_cards_fixed:
+    maximum(408*1.4, 510*1.4)
+
+style dashboard_cards_button:
+    maximum(408*1.4, 510*1.4)
+
 
 style dashboard_btn_text is main_subSubtitle_text
 
@@ -97,31 +156,38 @@ screen calendar():
     for times in persistent.overall_schedule['2/20/2022']:
         text str(times):
             xanchor 0.0 yanchor 0.0
-            xalign 0.0 yalign 0.12*count
+            xalign 0.05 yalign 0.12*count
         vbox:
             yanchor 0.0 xanchor 1.0
             xalign 1.0 yalign 0.12*count
             for schedule in persistent.overall_schedule['2/20/2022'][times]:
-                $count += 1
                 hbox:
                     xalign 1.0 xanchor 1.0
                     spacing 200
                     window:
                         background None
                         xmaximum 350
-                        text str(schedule[0]):
+                        textbutton str(schedule[0]) action Show('building_detail', b=schedule[1]):
+                            style_prefix 'calendar'
                             xalign 0.5
                     window:
                         background None
                         xmaximum 200
-                        text str(schedule[1]):
-                            xalign 1.0 xanchor 1.0
+                        textbutton str(schedule[1]) action Show('building_detail', b=schedule[1]):
+                            style_prefix 'calendar'
+                            xalign 0.8 xanchor 1.0
+                $count += 0.55
 
     use bottom_bar('calendar')
 
 style calendar_text:
     size 82
-    color '#ffffff'
+    color '#000000'
+
+style calendar_button_text:
+    size 80
+    hover_color '#000000'
+    idle_color '#000000'
 
 ## Map
 #####################################################################

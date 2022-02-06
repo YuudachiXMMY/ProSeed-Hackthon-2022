@@ -1,3 +1,19 @@
+init python in var:
+
+    import json
+
+    focused_buildings = ['ARC', 'DEN', 'MNY', 'SUZ']
+
+    with open('F:\Files\University of Washington\events\ProSeed-Hackthon-2022\game/building_names.json') as f:
+
+        toFullName = json.load(f)
+
+    with open('F:\Files\University of Washington\events\ProSeed-Hackthon-2022\game/data.json') as f:
+        data = json.load(f)
+
+    def new_building(new_building):
+        if new_building in toFullName or new_building in toFullName.values():
+            focused_buildings.append(new_building)
 
 # init python:
     # import pandas as pd

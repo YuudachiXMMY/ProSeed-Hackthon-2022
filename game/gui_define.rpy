@@ -41,3 +41,7 @@ image dashboard_btn_idle:
 image dashboard_btn_hover:
     'gui/button/dashboard.png'
     zoom 1.5
+
+image building_search_bar:
+    xanchor .5 zoom 1.5
+    'gui/search_bar.png'
