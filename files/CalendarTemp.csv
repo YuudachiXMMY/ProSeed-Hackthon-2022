@@ -1,0 +1,13 @@
+EventName,StartDate,StartTime,EndDate,EndTime,AllDayEvent,Description,BuildingName
+Math 126,2/20/2022,8:10 PM,2/20/2022,10:00 PM,FALSE,Study Math,Kane Hall
+CSE 142,2/20/2022,7:30 PM,2/20/2022,10:30 PM,FALSE,Study coding,Paul Allen School
+CSE 143,2/20/2022,7:30 PM,2/20/2022,10:30 PM,FALSE,Study coding,Paul Allen School
+CSE 163,2/20/2022,7:30 PM,2/20/2022,10:30 PM,FALSE,Study coding,Paul Allen School
+CSE 154,2/20/2022,7:30 PM,2/20/2022,10:30 PM,FALSE,Study coding,Paul Allen School
+Math 126,2/21/2022,7:10 PM,2/21/2022,10:00 PM,FALSE,Study Math,Kane Hall
+CSE 142,2/21/2022,7:30 PM,2/21/2022,10:30 PM,FALSE,Study coding,Paul Allen School
+Math 126,2/22/2022,7:10 PM,2/22/2022,10:00 PM,FALSE,Study Math,Kane Hall
+CSE 142,2/22/2022,7:30 PM,2/22/2022,10:30 PM,FALSE,Study coding,Paul Allen School
+Math 126,2/23/2022,7:10 PM,2/23/2022,10:00 PM,FALSE,Study Math,Kane Hall
+CSE 142,2/23/2022,7:30 PM,2/23/2022,10:30 PM,FALSE,Study coding,Paul Allen School
+Math 127,2/21/2022,7:10 PM,2/21/2022,10:00 PM,False,Study Math,Kane Hall

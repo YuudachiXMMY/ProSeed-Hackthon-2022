@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/screens.rpy", line 17: u'actoin' is not a keyword argument or valid child for the imagebutton statement.
+    actoin Hide('building_detail')
+          ^
+
+Ren'Py Version: Ren'Py 7.4.11.2266
+Sun Feb  6 03:08:07 2022
