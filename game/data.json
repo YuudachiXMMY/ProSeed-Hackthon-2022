@@ -1,0 +1,590 @@
+[
+    {
+      "BuildingName": "ARC",
+      "Date": 1,
+      "InfectedNum": 1633,
+      "TotalVistedNum": 177,
+      "percentage": 10.83
+    },
+    {
+      "BuildingName": "ARC",
+      "Date": 2,
+      "InfectedNum": 2259,
+      "TotalVistedNum": 91,
+      "percentage": 4.03
+    },
+    {
+      "BuildingName": "ARC",
+      "Date": 3,
+      "InfectedNum": 2008,
+      "TotalVistedNum": 216,
+      "percentage": 10.75
+    },
+    {
+      "BuildingName": "ARC",
+      "Date": 4,
+      "InfectedNum": 1760,
+      "TotalVistedNum": 149,
+      "percentage": 8.46
+    },
+    {
+      "BuildingName": "ARC",
+      "Date": 5,
+      "InfectedNum": 1653,
+      "TotalVistedNum": 161,
+      "percentage": 9.74
+    },
+    {
+      "BuildingName": "ARC",
+      "Date": 6,
+      "InfectedNum": 1868,
+      "TotalVistedNum": 52,
+      "percentage": 2.78
+    },
+    {
+      "BuildingName": "DEN",
+      "Date": 1,
+      "InfectedNum": 1913,
+      "TotalVistedNum": 107,
+      "percentage": 5.59
+    },
+    {
+      "BuildingName": "DEN",
+      "Date": 2,
+      "InfectedNum": 2390,
+      "TotalVistedNum": 372,
+      "percentage": 15.56
+    },
+    {
+      "BuildingName": "DEN",
+      "Date": 3,
+      "InfectedNum": 1638,
+      "TotalVistedNum": 253,
+      "percentage": 15.44
+    },
+    {
+      "BuildingName": "DEN",
+      "Date": 4,
+      "InfectedNum": 2184,
+      "TotalVistedNum": 248,
+      "percentage": 11.35
+    },
+    {
+      "BuildingName": "DEN",
+      "Date": 5,
+      "InfectedNum": 2177,
+      "TotalVistedNum": 25,
+      "percentage": 1.15
+    },
+    {
+      "BuildingName": "DEN",
+      "Date": 6,
+      "InfectedNum": 1701,
+      "TotalVistedNum": 286,
+      "percentage": 16.81
+    },
+    {
+      "BuildingName": "GRB",
+      "Date": 1,
+      "InfectedNum": 2336,
+      "TotalVistedNum": 390,
+      "percentage": 16.69
+    },
+    {
+      "BuildingName": "GRB",
+      "Date": 2,
+      "InfectedNum": 1615,
+      "TotalVistedNum": 200,
+      "percentage": 12.38
+    },
+    {
+      "BuildingName": "GRB",
+      "Date": 3,
+      "InfectedNum": 2106,
+      "TotalVistedNum": 348,
+      "percentage": 16.52
+    },
+    {
+      "BuildingName": "GRB",
+      "Date": 4,
+      "InfectedNum": 1944,
+      "TotalVistedNum": 148,
+      "percentage": 7.61
+    },
+    {
+      "BuildingName": "GRB",
+      "Date": 5,
+      "InfectedNum": 2309,
+      "TotalVistedNum": 406,
+      "percentage": 17.58
+    },
+    {
+      "BuildingName": "GRB",
+      "Date": 6,
+      "InfectedNum": 2174,
+      "TotalVistedNum": 363,
+      "percentage": 16.69
+    },
+    {
+      "BuildingName": "GWN",
+      "Date": 1,
+      "InfectedNum": 1702,
+      "TotalVistedNum": 61,
+      "percentage": 3.58
+    },
+    {
+      "BuildingName": "GWN",
+      "Date": 2,
+      "InfectedNum": 2295,
+      "TotalVistedNum": 28,
+      "percentage": 1.22
+    },
+    {
+      "BuildingName": "GWN",
+      "Date": 3,
+      "InfectedNum": 1634,
+      "TotalVistedNum": 67,
+      "percentage": 4.1
+    },
+    {
+      "BuildingName": "GWN",
+      "Date": 4,
+      "InfectedNum": 1607,
+      "TotalVistedNum": 277,
+      "percentage": 17.23
+    },
+    {
+      "BuildingName": "GWN",
+      "Date": 5,
+      "InfectedNum": 2163,
+      "TotalVistedNum": 408,
+      "percentage": 18.86
+    },
+    {
+      "BuildingName": "GWN",
+      "Date": 6,
+      "InfectedNum": 1748,
+      "TotalVistedNum": 71,
+      "percentage": 4.06
+    },
+    {
+      "BuildingName": "JHN",
+      "Date": 1,
+      "InfectedNum": 1672,
+      "TotalVistedNum": 26,
+      "percentage": 1.55
+    },
+    {
+      "BuildingName": "JHN",
+      "Date": 2,
+      "InfectedNum": 2396,
+      "TotalVistedNum": 303,
+      "percentage": 12.65
+    },
+    {
+      "BuildingName": "JHN",
+      "Date": 3,
+      "InfectedNum": 1758,
+      "TotalVistedNum": 90,
+      "percentage": 5.12
+    },
+    {
+      "BuildingName": "JHN",
+      "Date": 4,
+      "InfectedNum": 2062,
+      "TotalVistedNum": 375,
+      "percentage": 18.18
+    },
+    {
+      "BuildingName": "JHN",
+      "Date": 5,
+      "InfectedNum": 1760,
+      "TotalVistedNum": 224,
+      "percentage": 12.73
+    },
+    {
+      "BuildingName": "JHN",
+      "Date": 6,
+      "InfectedNum": 2374,
+      "TotalVistedNum": 269,
+      "percentage": 11.33
+    },
+    {
+      "BuildingName": "KNE",
+      "Date": 1,
+      "InfectedNum": 2031,
+      "TotalVistedNum": 285,
+      "percentage": 14.03
+    },
+    {
+      "BuildingName": "KNE",
+      "Date": 2,
+      "InfectedNum": 2107,
+      "TotalVistedNum": 348,
+      "percentage": 16.51
+    },
+    {
+      "BuildingName": "KNE",
+      "Date": 3,
+      "InfectedNum": 1961,
+      "TotalVistedNum": 5,
+      "percentage": 0.25
+    },
+    {
+      "BuildingName": "KNE",
+      "Date": 4,
+      "InfectedNum": 2323,
+      "TotalVistedNum": 395,
+      "percentage": 17
+    },
+    {
+      "BuildingName": "KNE",
+      "Date": 5,
+      "InfectedNum": 2179,
+      "TotalVistedNum": 31,
+      "percentage": 1.42
+    },
+    {
+      "BuildingName": "KNE",
+      "Date": 6,
+      "InfectedNum": 1935,
+      "TotalVistedNum": 52,
+      "percentage": 2.69
+    },
+    {
+      "BuildingName": "MGH",
+      "Date": 1,
+      "InfectedNum": 1928,
+      "TotalVistedNum": 48,
+      "percentage": 2.49
+    },
+    {
+      "BuildingName": "MGH",
+      "Date": 2,
+      "InfectedNum": 1621,
+      "TotalVistedNum": 53,
+      "percentage": 3.27
+    },
+    {
+      "BuildingName": "MGH",
+      "Date": 3,
+      "InfectedNum": 2370,
+      "TotalVistedNum": 59,
+      "percentage": 2.49
+    },
+    {
+      "BuildingName": "MGH",
+      "Date": 4,
+      "InfectedNum": 2107,
+      "TotalVistedNum": 278,
+      "percentage": 13.19
+    },
+    {
+      "BuildingName": "MGH",
+      "Date": 5,
+      "InfectedNum": 1753,
+      "TotalVistedNum": 84,
+      "percentage": 4.79
+    },
+    {
+      "BuildingName": "MGH",
+      "Date": 6,
+      "InfectedNum": 1642,
+      "TotalVistedNum": 29,
+      "percentage": 1.77
+    },
+    {
+      "BuildingName": "MNY",
+      "Date": 1,
+      "InfectedNum": 2113,
+      "TotalVistedNum": 54,
+      "percentage": 2.55
+    },
+    {
+      "BuildingName": "MNY",
+      "Date": 2,
+      "InfectedNum": 2391,
+      "TotalVistedNum": 197,
+      "percentage": 8.24
+    },
+    {
+      "BuildingName": "MNY",
+      "Date": 3,
+      "InfectedNum": 1957,
+      "TotalVistedNum": 363,
+      "percentage": 18.55
+    },
+    {
+      "BuildingName": "MNY",
+      "Date": 4,
+      "InfectedNum": 2031,
+      "TotalVistedNum": 342,
+      "percentage": 16.83
+    },
+    {
+      "BuildingName": "MNY",
+      "Date": 5,
+      "InfectedNum": 1792,
+      "TotalVistedNum": 232,
+      "percentage": 12.94
+    },
+    {
+      "BuildingName": "MNY",
+      "Date": 6,
+      "InfectedNum": 1662,
+      "TotalVistedNum": 60,
+      "percentage": 3.61
+    },
+    {
+      "BuildingName": "OUG",
+      "Date": 1,
+      "InfectedNum": 2270,
+      "TotalVistedNum": 11,
+      "percentage": 0.48
+    },
+    {
+      "BuildingName": "OUG",
+      "Date": 2,
+      "InfectedNum": 1783,
+      "TotalVistedNum": 333,
+      "percentage": 18.67
+    },
+    {
+      "BuildingName": "OUG",
+      "Date": 3,
+      "InfectedNum": 2391,
+      "TotalVistedNum": 40,
+      "percentage": 1.67
+    },
+    {
+      "BuildingName": "OUG",
+      "Date": 4,
+      "InfectedNum": 1772,
+      "TotalVistedNum": 21,
+      "percentage": 1.18
+    },
+    {
+      "BuildingName": "OUG",
+      "Date": 5,
+      "InfectedNum": 2070,
+      "TotalVistedNum": 378,
+      "percentage": 18.26
+    },
+    {
+      "BuildingName": "OUG",
+      "Date": 6,
+      "InfectedNum": 2159,
+      "TotalVistedNum": 381,
+      "percentage": 17.65
+    },
+    {
+      "BuildingName": "PAR",
+      "Date": 1,
+      "InfectedNum": 1663,
+      "TotalVistedNum": 284,
+      "percentage": 17.08
+    },
+    {
+      "BuildingName": "PAR",
+      "Date": 2,
+      "InfectedNum": 2183,
+      "TotalVistedNum": 262,
+      "percentage": 12
+    },
+    {
+      "BuildingName": "PAR",
+      "Date": 3,
+      "InfectedNum": 1762,
+      "TotalVistedNum": 37,
+      "percentage": 2.1
+    },
+    {
+      "BuildingName": "PAR",
+      "Date": 4,
+      "InfectedNum": 1897,
+      "TotalVistedNum": 346,
+      "percentage": 18.24
+    },
+    {
+      "BuildingName": "PAR",
+      "Date": 5,
+      "InfectedNum": 1808,
+      "TotalVistedNum": 334,
+      "percentage": 18.47
+    },
+    {
+      "BuildingName": "PAR",
+      "Date": 6,
+      "InfectedNum": 1784,
+      "TotalVistedNum": 243,
+      "percentage": 13.62
+    },
+    {
+      "BuildingName": "RAI",
+      "Date": 1,
+      "InfectedNum": 1665,
+      "TotalVistedNum": 321,
+      "percentage": 19.28
+    },
+    {
+      "BuildingName": "RAI",
+      "Date": 2,
+      "InfectedNum": 2180,
+      "TotalVistedNum": 210,
+      "percentage": 9.63
+    },
+    {
+      "BuildingName": "RAI",
+      "Date": 3,
+      "InfectedNum": 1806,
+      "TotalVistedNum": 328,
+      "percentage": 18.16
+    },
+    {
+      "BuildingName": "RAI",
+      "Date": 4,
+      "InfectedNum": 1680,
+      "TotalVistedNum": 56,
+      "percentage": 3.33
+    },
+    {
+      "BuildingName": "RAI",
+      "Date": 5,
+      "InfectedNum": 1931,
+      "TotalVistedNum": 46,
+      "percentage": 2.38
+    },
+    {
+      "BuildingName": "RAI",
+      "Date": 6,
+      "InfectedNum": 1905,
+      "TotalVistedNum": 293,
+      "percentage": 15.38
+    },
+    {
+      "BuildingName": "SAV",
+      "Date": 1,
+      "InfectedNum": 1798,
+      "TotalVistedNum": 268,
+      "percentage": 14.9
+    },
+    {
+      "BuildingName": "SAV",
+      "Date": 2,
+      "InfectedNum": 2033,
+      "TotalVistedNum": 37,
+      "percentage": 1.82
+    },
+    {
+      "BuildingName": "SAV",
+      "Date": 3,
+      "InfectedNum": 1848,
+      "TotalVistedNum": 15,
+      "percentage": 0.81
+    },
+    {
+      "BuildingName": "SAV",
+      "Date": 4,
+      "InfectedNum": 2036,
+      "TotalVistedNum": 14,
+      "percentage": 0.69
+    },
+    {
+      "BuildingName": "SAV",
+      "Date": 5,
+      "InfectedNum": 1871,
+      "TotalVistedNum": 166,
+      "percentage": 8.87
+    },
+    {
+      "BuildingName": "SAV",
+      "Date": 6,
+      "InfectedNum": 2168,
+      "TotalVistedNum": 281,
+      "percentage": 12.96
+    },
+    {
+      "BuildingName": "SMI",
+      "Date": 1,
+      "InfectedNum": 2317,
+      "TotalVistedNum": 239,
+      "percentage": 10.31
+    },
+    {
+      "BuildingName": "SMI",
+      "Date": 2,
+      "InfectedNum": 1878,
+      "TotalVistedNum": 179,
+      "percentage": 9.53
+    },
+    {
+      "BuildingName": "SMI",
+      "Date": 3,
+      "InfectedNum": 1813,
+      "TotalVistedNum": 21,
+      "percentage": 1.16
+    },
+    {
+      "BuildingName": "SMI",
+      "Date": 4,
+      "InfectedNum": 2186,
+      "TotalVistedNum": 412,
+      "percentage": 18.85
+    },
+    {
+      "BuildingName": "SMI",
+      "Date": 5,
+      "InfectedNum": 2250,
+      "TotalVistedNum": 349,
+      "percentage": 15.51
+    },
+    {
+      "BuildingName": "SMI",
+      "Date": 6,
+      "InfectedNum": 2146,
+      "TotalVistedNum": 324,
+      "percentage": 15.1
+    },
+    {
+      "BuildingName": "SUZ",
+      "Date": 1,
+      "InfectedNum": 2317,
+      "TotalVistedNum": 140,
+      "percentage": 6.04
+    },
+    {
+      "BuildingName": "SUZ",
+      "Date": 2,
+      "InfectedNum": 2220,
+      "TotalVistedNum": 304,
+      "percentage": 13.69
+    },
+    {
+      "BuildingName": "SUZ",
+      "Date": 3,
+      "InfectedNum": 2034,
+      "TotalVistedNum": 340,
+      "percentage": 16.71
+    },
+    {
+      "BuildingName": "SUZ",
+      "Date": 4,
+      "InfectedNum": 2150,
+      "TotalVistedNum": 387,
+      "percentage": 18
+    },
+    {
+      "BuildingName": "SUZ",
+      "Date": 5,
+      "InfectedNum": 2322,
+      "TotalVistedNum": 320,
+      "percentage": 13.78
+    },
+    {
+      "BuildingName": "SUZ",
+      "Date": 6,
+      "InfectedNum": 2349,
+      "TotalVistedNum": 101,
+      "percentage": 4.3
+    }
+  ]

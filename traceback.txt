@@ -1,0 +1,37 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/api.rpy", line 1, in script
+    init python in var:
+  File "game/api.rpy", line 1, in script
+    init python in var:
+  File "game/api.rpy", line 16, in <module>
+    toFullName = json.loads(toFullName_str)
+ValueError: Invalid \escape: line 1 column 697 (char 696)
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "renpy/bootstrap.py", line 331, in bootstrap
+    renpy.main.main()
+  File "renpy/main.py", line 560, in main
+    renpy.game.context().run(node)
+  File "game/api.rpy", line 1, in script
+    init python in var:
+  File "game/api.rpy", line 1, in script
+    init python in var:
+  File "renpy/ast.py", line 928, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "renpy/python.py", line 2245, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "game/api.rpy", line 16, in <module>
+    toFullName = json.loads(toFullName_str)
+  File "/home/tom/ab/renpy-build/tmp/install.linux-x86_64/lib/python2.7/json/__init__.py", line 339, in loads
+  File "/home/tom/ab/renpy-build/tmp/install.linux-x86_64/lib/python2.7/json/decoder.py", line 364, in decode
+  File "/home/tom/ab/renpy-build/tmp/install.linux-x86_64/lib/python2.7/json/decoder.py", line 380, in raw_decode
+ValueError: Invalid \escape: line 1 column 697 (char 696)
+
+Windows-10-10.0.19041
+Ren'Py 7.4.11.2266
+ProSeed2022 1.0
+Sun Feb  6 11:19:59 2022
